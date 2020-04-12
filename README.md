@@ -1,3 +1,7 @@
+# Algorithms
+
+## Union Find
+
 bfs
 dfs
 A\*
@@ -7,7 +11,6 @@ priority queue
 heap
 trie
 
-Union Find
 kmp
 ac
 LIS
