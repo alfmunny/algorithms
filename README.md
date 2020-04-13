@@ -1,11 +1,19 @@
-# Algorithms
+# Algorithms and Data Structures
 
+## Basics
+
+- [ ] tree
+- [ ] stack
+- [ ] queue
+- [ ] heap
+- [ ] bfs
+- [ ] dfs
+- [ ] quick sort 
+
+## Advanced
 [The road the algorithms](https://zhuanlan.zhihu.com/p/105467597)
 
 - [x] Union Find
-- 
-- [ ] bfs
-- [ ] dfs
 - [ ] A\*
 - [ ] stack
 - [ ] queue
