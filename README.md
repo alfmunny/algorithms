@@ -2,42 +2,38 @@
 
 ## Basics
 
-- [ ] tree
-- [ ] stack
-- [ ] queue
-- [ ] heap
+- [ ] Tree
+- [ ] Stack
+- [ ] Queue
+- [ ] Heap
 - [ ] bfs
 - [ ] dfs
-- [ ] quick sort 
+- [ ] Quick Sort 
+- [ ] Binary Search
+- [ ] Trie
 
 ## Advanced
-[The road the algorithms](https://zhuanlan.zhihu.com/p/105467597)
+[The road to algorithms](https://zhuanlan.zhihu.com/p/105467597)
 
 - [x] Union Find
+- [x] Binary Index Tree
+- [ ] Sparse Table
+- [ ] KMP
 - [ ] A\*
-- [ ] stack
-- [ ] queue
-- [ ] priority queue
-- [ ] heap
-- [ ] trie
-- [ ] kmp
 - [ ] ac
 - [ ] LIS
 - [ ] Segment Tree
-- [ ] Binary Index Tree
-- [ ] Sparse Tree
-- [ ] Binary Search
 - [ ] Flood Fill
 
 ## Graph
 
 - [ ] Bellman-Ford
-- [ ] dijkstra
-- [ ] kruscal
-- [ ] floyd
-- [ ] prim
+- [ ] Dijkstra
+- [ ] Kruscal
+- [ ] Floyd
+- [ ] Prim
+- [ ] Ford-Fulkerson
+- [ ] Minimum Cost Maximum
 
-## Sort
-## Tree
 ## Geometry
 
