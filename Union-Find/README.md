@@ -12,40 +12,19 @@
 输出格式
 P行，每行一个’Yes’或’No’。表示第i个询问的答案为“具有”或“不具有”亲戚关系。
 ```
-
-```shell
-./union_find < data.txt
 ```
 
-Notes:
+## Notes:
 
-1. *Path compression*, only when call find()
+
+1. *Path compression*, done in find()
 2. *Union by rank*, always attach the shorter tree to the root of the taller one
 
 
-Another application of Union-Find
+## Challenge
 
 [P3958 奶酪](https://www.luogu.com.cn/problem/P3958)
 
+```shell
+./assignment < data.txt
 ```
-现有一块大奶酪，它的高度为 hh，它的长度和宽度我们可以认为是无限大的，奶酪 中间有许多 半径相同 的球形空洞。我们可以在这块奶酪中建立空间坐标系，在坐标系中， 奶酪的下表面为z = 0z=0，奶酪的上表面为z = hz=h。
-
-现在，奶酪的下表面有一只小老鼠 Jerry，它知道奶酪中所有空洞的球心所在的坐 标。如果两个空洞相切或是相交，则 Jerry 可以从其中一个空洞跑到另一个空洞，特别 地，如果一个空洞与下表面相切或是相交，Jerry 则可以从奶酪下表面跑进空洞；如果 一个空洞与上表面相切或是相交，Jerry 则可以从空洞跑到奶酪上表面。
-
-位于奶酪下表面的 Jerry 想知道，在 不破坏奶酪 的情况下，能否利用已有的空洞跑 到奶酪的上表面去?
-
-空间内两点P_1(x_1,y_1,z_1), P2(x_2,y_2,z_2)
-
-输入格式
-每个输入文件包含多组数据。
-
-的第一行，包含一个正整数 T，代表该输入文件中所含的数据组数。
-
-接下来是 T 组数据，每组数据的格式如下： 第一行包含三个正整数 n, h 和 r，两个数之间以一个空格分开，分别代表奶酪中空 洞的数量，奶酪的高度和空洞的半径。
-
-接下来的 n 行，每行包含三个整数 x,y,z，两个数之间以一个空格分开，表示空 洞球心坐标为(x,y,z)
-
-输出格式
-T 行，分别对应 T 组数据的答案，如果在第 i 组数据中，Jerry 能从下 表面跑到上表面，则输出Yes，如果不能，则输出No （均不包含引号）。
-```
-
