@@ -12,7 +12,6 @@
 输出格式
 P行，每行一个’Yes’或’No’。表示第i个询问的答案为“具有”或“不具有”亲戚关系。
 ```
-```
 
 ## Notes:
 
@@ -25,6 +24,5 @@ P行，每行一个’Yes’或’No’。表示第i个询问的答案为“具�
 
 [P3958 奶酪](https://www.luogu.com.cn/problem/P3958)
 
-```shell
-./assignment < data.txt
-```
+See `assignment.cpp`
+
