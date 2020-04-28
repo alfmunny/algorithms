@@ -13,23 +13,21 @@
 - [ ] Trie
 
 ## Advanced
+
 [The road to algorithms](https://zhuanlan.zhihu.com/p/105467597)
 
 - [x] Union Find
 - [x] Binary Index Tree
+- [x] KMP
 - [ ] Sparse Table
-- [ ] KMP
-- [ ] A\*
+- [ ] A*
 - [ ] ac
 - [ ] LIS
 - [ ] Segment Tree
 - [ ] Flood Fill
-
-## Graph
-
 - [ ] Bellman-Ford
 - [ ] Dijkstra
-- [ ] Kruscal
+- [ ] Kruschal
 - [ ] Floyd
 - [ ] Prim
 - [ ] Ford-Fulkerson
