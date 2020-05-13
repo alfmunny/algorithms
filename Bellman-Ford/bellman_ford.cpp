@@ -24,30 +24,27 @@ void Bellman_Ford(int n, int m)
 
 int main() {
   memset(dist, 63, sizeof(dist));
-  int n;
-  int m;
+  int n; // number of nodes
+  int m; // number of edges
+  int s; // source
 
   scanf("%d", &n);
   scanf("%d", &m);
+  scanf("%d", &s);
 
-  for (int i = 1; i <=n; i++)
-    dist[i] = 0x3f3f3f3f;
-
-  dist[1] = 0;
+  dist[s] = 0;
 
   for (int i = 1; i <= m; ++i)
   {
     int u, v, w;
-    scanf("%d%d%d", &u, &v, &w);
+    scanf("%d%d%d", &u, &v, &w); // edge: from u to v, weight w
     edge e = {u, v, w};
     edges[i] = e;
   }
 
   Bellman_Ford(n, m);
 
-  int ans = 0x3f3f3f3f;
-  int to = 0;
-  for (int i = 2; i <= n; i++) 
+  for (int i = 1; i <= n; i++) 
   { 
     cout << "Shortest Path from " << 1 << " to "  <<  i << ": " << dist[i] << endl;
   }
