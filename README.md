@@ -19,16 +19,16 @@
 - [x] Union Find
 - [x] Binary Index Tree
 - [x] KMP
+- [x] Floyd
+- [x] Bellman-Ford
+- [ ] Dijkstra
 - [ ] Sparse Table
 - [ ] A*
 - [ ] ac
 - [ ] LIS
 - [ ] Segment Tree
 - [ ] Flood Fill
-- [ ] Bellman-Ford
-- [ ] Dijkstra
 - [ ] Kruschal
-- [ ] Floyd
 - [ ] Prim
 - [ ] Ford-Fulkerson
 - [ ] Minimum Cost Maximum
