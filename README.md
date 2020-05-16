@@ -5,11 +5,11 @@
 - [ ] Tree
 - [ ] Stack
 - [ ] Queue
+- [ ] Quick Sort 
 - [ ] Heap
+- [ ] Binary Search
 - [ ] bfs
 - [ ] dfs
-- [ ] Quick Sort 
-- [ ] Binary Search
 - [ ] Trie
 
 ## Advanced
@@ -21,17 +21,20 @@
 - [x] KMP
 - [x] Floyd
 - [x] Bellman-Ford
-- [ ] Dijkstra
+- [x] Dijkstra
+- [ ] Hungarian
 - [ ] Sparse Table
 - [ ] A*
 - [ ] ac
 - [ ] LIS
 - [ ] Segment Tree
 - [ ] Flood Fill
-- [ ] Kruschal
 - [ ] Prim
+- [ ] Kruschal
 - [ ] Ford-Fulkerson
 - [ ] Minimum Cost Maximum
+- [ ] Difference Constraints
+
 
 ## Geometry
 
