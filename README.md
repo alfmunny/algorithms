@@ -22,7 +22,7 @@
 - [x] Floyd
 - [x] Bellman-Ford
 - [x] Dijkstra
-- [ ] Hungarian
+- [X] Hungarian
 - [ ] Sparse Table
 - [ ] A*
 - [ ] ac
