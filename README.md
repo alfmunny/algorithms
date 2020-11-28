@@ -1,20 +1,29 @@
-# Algorithms and Data Structures
+# Road to Algorithms
 
-## Basics
+1. Book: Algorithms 4th
+2. Book: Cracking the Coding Interview 
+3. Task: 600 Selected LeetCode Problems
+4. Book: Programming Contest Challenge Book (and all OJ problems in the book)
+5. Task: Browse and implement the templates for advanced algorithms
+6. Task: luogo lists
+
+## Algorithms and Data Structures
+
+### Basics
 
 - [ ] Tree
 - [ ] Stack
 - [ ] Queue
-- [ ] Quick Sort 
+- [ ] Quick Sort, Merge Sort
 - [ ] Heap
 - [ ] Binary Search
-- [ ] bfs
-- [ ] dfs
+- [ ] DFS
+- [ ] BFS
 - [ ] Trie
 
-## Advanced
+### Advanced
 
-[The road to algorithms](https://zhuanlan.zhihu.com/p/105467597)
+[Reference](https://zhuanlan.zhihu.com/p/105467597)
 
 - [x] Union Find
 - [x] Binary Index Tree
