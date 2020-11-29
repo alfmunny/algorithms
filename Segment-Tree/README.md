@@ -28,5 +28,3 @@ If we have N elements:
     dat[i] = int_max;
 ```
 3. The offset for elements in the last level is `n-1`. For example, `dat[0+n-1]` retrieves the first elements of the initial N elements you input.
-
-

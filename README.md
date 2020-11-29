@@ -23,11 +23,9 @@
 
 ### Advanced
 
-[Reference](https://zhuanlan.zhihu.com/p/105467597)
-
 - [x] Union Find
 - [x] Binary Index Tree
-- [ ] Segment Tree
+- [X] Segment Tree
 - [x] KMP
 - [x] Floyd
 - [x] Bellman-Ford
@@ -44,6 +42,10 @@
 - [ ] Minimum Cost Maximum
 - [ ] Difference Constraints
 
-
 ## Geometry
+
+Reference:
+
+1. [Programming Contest Challenge](https://book.douban.com/subject/24749842/)
+2. https://zhuanlan.zhihu.com/p/105467597
 
