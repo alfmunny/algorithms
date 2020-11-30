@@ -30,19 +30,23 @@
 - [x] Floyd
 - [x] Bellman-Ford
 - [x] Dijkstra
+- [X] Prim
+- [X] Kruskal
 - [X] Hungarian
 - [ ] Sparse Table
 - [ ] A*
 - [ ] ac
 - [ ] LIS
 - [ ] Flood Fill
-- [X] Prim
-- [ ] Kruschal
 - [X] Ford-Fulkerson
 - [ ] Minimum Cost Maximum
 - [ ] Difference Constraints
 
 ## Geometry
+
+TODO
+
+---
 
 Reference:
 
