@@ -15,11 +15,11 @@
 - [ ] Stack
 - [ ] Queue
 - [ ] Quick Sort, Merge Sort
-- [X] Heap (Priority Queue)
 - [ ] Binary Search
 - [ ] DFS
 - [ ] BFS
 - [ ] Trie
+- [X] Heap (Priority Queue)
 
 ### Advanced
 
@@ -36,9 +36,9 @@
 - [ ] ac
 - [ ] LIS
 - [ ] Flood Fill
-- [ ] Prim
+- [X] Prim
 - [ ] Kruschal
-- [ ] Ford-Fulkerson
+- [X] Ford-Fulkerson
 - [ ] Minimum Cost Maximum
 - [ ] Difference Constraints
 
