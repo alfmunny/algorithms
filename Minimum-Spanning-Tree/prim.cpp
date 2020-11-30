@@ -10,8 +10,19 @@ struct Edge {
 std::vector<Edge> edges[MAXN];
 std::vector<Edge> mst;
 int vis[MAXN];
-auto cmp = [](Edge a, Edge b) { return a.w > b.w; };
-std::priority_queue<Edge, std::vector<Edge>, decltype(cmp)> Q;
+
+struct cmp {
+  bool operator () (Edge a, Edge b) {
+    return a.w > b.w;
+  }
+};
+
+std::priority_queue<Edge, std::vector<Edge>, cmp> Q;
+
+void add(int from, int to, int w) {
+  edges[from].push_back((Edge) {to, from, w});
+  edges[to].push_back((Edge) {from, to, w});
+}
 
 void visit(int v) 
 {
@@ -35,8 +46,37 @@ void prim()
   }
 }
 
-int main()
+int mst_weight() 
 {
-  return 0;
+  int sum = 0;
+  for (auto e : mst)
+    sum += e.w;
+  return sum;
 }
 
+void print_edge(Edge e) {
+    std::cout << "Edge: " << e.from << "<->" << e.to << " with " << e.w << std::endl;
+}
+
+int main()
+{
+  memset(vis, 0, sizeof(vis));
+  int n, m;
+
+  scanf("%d", &n);
+  scanf("%d", &m);
+  std::cout << n << " points, " << m << " edges" << std::endl;
+
+  for (int i = 0; i < m; ++i) {
+    int from, to, w;
+    scanf("%d%d%d", &from, &to, &w);
+    print_edge(Edge { from, to, w });
+    add(from, to, w);
+  }
+
+  prim();
+  std::cout << "MST:" << "with total weight " << mst_weight() << std::endl;
+  for (auto e : mst) print_edge(e);
+
+  return 0;
+}
