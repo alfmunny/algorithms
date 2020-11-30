@@ -49,6 +49,9 @@ Use UnionFind to do find and unite operation.
 1. sort all edges (ElogE), or push them into priority queue.
 2. take the smallest edge, add two vertices to one union if they are not in one union. 
 
+Complexity: |E|log|E|
+
+Template:
 ```c++
 int kruskal() {
 	sort(edges, edges+R, cmp); // sort all edges
@@ -67,6 +70,12 @@ int kruskal() {
 }
 ```
 
-Application:
+## Applications
 
-[POJ3727](http://poj.org/problem?id=3723): [code](poj3723.cpp), Hints: Kruskal
+|---------------------------------------------------------|---------------------|-----------------------------|
+| Problems                                                | Code                | Hints                       |
+|---------------------------------------------------------|---------------------|-----------------------------|
+| [POJ 3727 Conscription](http://poj.org/problem?id=3723) | [code](poj3723.cpp) | Kruskal, reverse the weight |
+|---------------------------------------------------------|---------------------|-----------------------------|
+| [POJ 3169 Layout](http://poj.org/problem?id=3169)       |                     |                             |
+|---------------------------------------------------------|---------------------|-----------------------------|
