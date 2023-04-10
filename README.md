@@ -1,9 +1,9 @@
 # Road to Algorithms
 
 * [X] Book: [Algorithms 4th](https://github.com/alfmunny/book-notes/tree/master/algorithms-4th)
-* [ ] Book: [Cracking the Coding Interview](https://github.com/alfmunny/cracking-the-coding-interview/tree/09e688b9d2d757dfd69d5bc5c24d561c834001ab)
+* [X] Book: [Cracking the Coding Interview](https://github.com/alfmunny/cracking-the-coding-interview/tree/09e688b9d2d757dfd69d5bc5c24d561c834001ab)
 * [ ] Book: [Programming Contest Challenge Book](https://github.com/alfmunny/book-notes/tree/master/acm-challenge) (and all OJ problems in the book)
-* [ ] Task: [600 Selected LeetCode Problems](https://github.com/alfmunny/leetcode)
+* [X] Task: [600 Selected LeetCode Problems](https://github.com/alfmunny/leetcode)
 * [ ] Task: Browse and implement the templates for advanced algorithms
 * [ ] Task: [Luogu lists](https://www.luogu.com.cn/training/list?type=select&page=1)
 * [ ] Task: [CSES](https://github.com/alfmunny/CSES)
@@ -12,14 +12,14 @@
 
 ### Basics
 
-- [ ] Tree
-- [ ] Stack
-- [ ] Queue
-- [ ] Quick Sort, Merge Sort
-- [ ] Binary Search
-- [ ] DFS
-- [ ] BFS
-- [ ] Trie
+- [X] Tree
+- [X] Stack
+- [X] Queue
+- [X] Quick Sort, Merge Sort
+- [X] Binary Search
+- [X] DFS
+- [X] BFS
+- [X] Trie
 - [X] Heap (Priority Queue)
 
 ### Advanced
@@ -37,9 +37,9 @@
 - [ ] Sparse Table
 - [ ] A*
 - [ ] ac
-- [ ] LIS
+- [X] LIS
 - [X] Ford-Fulkerson
-- [ ] Minimum Cost Maximum
+- [X] Minimum Cost Maximum
 - [ ] Difference Constraints
 
 ## Geometry
